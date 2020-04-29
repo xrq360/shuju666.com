@@ -14,9 +14,9 @@ return array(
 		//mysql config	    
 		'DB_TYPE'   => 'mysqli',  
 		'DB_HOST'   => '127.0.0.1', 
-		'DB_NAME'   => 'panle', 
+		'DB_NAME'   => 'shuju666', 
 		'DB_USER'   => 'shuju666', 
-		'DB_PWD'    => 'NfzyMtgt520chi',
+		'DB_PWD'    => '',
 		'DB_PORT'   => '3306', 
 		'DB_PREFIX' => 'pan_', 
 		

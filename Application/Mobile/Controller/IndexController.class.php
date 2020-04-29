@@ -36,9 +36,9 @@ class IndexController extends Controller {
         $results = $decoded->hits->hits;
         
         $array_res=array();
-        $array_banlist=array('ssa.gov','nhi.gov.tw');
+        $array_banlist=array('');
         //$array_banlist=array('');
-        $array_viplist=array('homeinns.com');
+        $array_viplist=array(''); //此处已删除vip用户可查看数据列表
 		$urank=1;
         
         if($results){

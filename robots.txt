@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow: /Inc/
+
+# robots.txt for shuju666 2017.06.01

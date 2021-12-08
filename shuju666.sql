@@ -8,15 +8,6 @@ SET sql_mode = 'NO_AUTO_VALUE_ON_ZERO';
 CREATE DATABASE `shuju666` /*!40100 DEFAULT CHARACTER SET utf8 */;
 USE `shuju666`;
 
-DROP TABLE IF EXISTS `pan_admin`;
-CREATE TABLE `pan_admin` (
-  `aid` int(11) unsigned NOT NULL AUTO_INCREMENT COMMENT 'id',
-  `aname` varchar(20) NOT NULL DEFAULT '' COMMENT 'admin username',
-  `apwd` varchar(40) NOT NULL DEFAULT '' COMMENT 'admin pass',
-  PRIMARY KEY (`aid`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
-
-
 DROP TABLE IF EXISTS `pan_cards`;
 CREATE TABLE `pan_cards` (
   `cno` varchar(20) NOT NULL,

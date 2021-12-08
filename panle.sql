@@ -5,8 +5,8 @@ SET time_zone = '+00:00';
 SET foreign_key_checks = 0;
 SET sql_mode = 'NO_AUTO_VALUE_ON_ZERO';
 
-CREATE DATABASE `panle` /*!40100 DEFAULT CHARACTER SET utf8 */;
-USE `panle`;
+CREATE DATABASE `shuju666` /*!40100 DEFAULT CHARACTER SET utf8 */;
+USE `shuju666`;
 
 DROP TABLE IF EXISTS `pan_admin`;
 CREATE TABLE `pan_admin` (

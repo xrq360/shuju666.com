@@ -16,11 +16,11 @@ return array(
 		'DB_HOST'   => '127.0.0.1', 
 		'DB_NAME'   => 'shuju666', 
 		'DB_USER'   => 'shuju666', 
-		'DB_PWD'    => '',
+		'DB_PWD'    => 'shuju666',
 		'DB_PORT'   => '3306', 
 		'DB_PREFIX' => 'pan_', 
 		
-		'MODULE_ALLOW_LIST' => array ('Home','Mobile'),
+		'MODULE_ALLOW_LIST' => array ('Home','Mobile','World'),
 		'DEFAULT_MODULE' => 'Home',
 		
 		
